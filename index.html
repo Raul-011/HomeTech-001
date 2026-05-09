@@ -1,0 +1,519 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXUS | HomeTechConnect</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- ICONS -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            NEXUS
+        </div>
+
+        <nav>
+
+            <a href="#sobre">Sobre</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#demo">Demonstração</a>
+            <a href="#planos">Planos</a>
+            <a href="#comparativo">Comparativo</a>
+
+            <a href="#contato" class="btn-nav">
+                Garanta o seu
+            </a>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-left" data-aos="fade-right">
+
+            <span class="tag">
+                IA PREDITIVA RESIDENCIAL
+            </span>
+
+            <h1>
+
+                Sua casa aprende sua rotina.
+                <span class="blue">
+                    Você ganha tempo.
+                </span>
+
+            </h1>
+
+            <p>
+
+                O Nexus automatiza iluminação,
+                conforto e segurança utilizando
+                inteligência artificial preditiva.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#demo" class="btn-primary">
+                    Ver Demonstração
+                </a>
+
+                <a href="#planos" class="btn-secondary">
+                    Ver Planos
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- MOCKUP -->
+
+        <div class="hero-right" data-aos="fade-left">
+
+            <div class="mockup">
+
+                <div class="mockup-screen">
+
+                    <h2>NEXUS APP</h2>
+
+                    <div class="device">
+
+                        <i class="ph-lightbulb"></i>
+                        Luzes Inteligentes
+
+                    </div>
+
+                    <div class="device">
+
+                        <i class="ph-wind"></i>
+                        Ar-condicionado
+
+                    </div>
+
+                    <div class="device">
+
+                        <i class="ph-shield-check"></i>
+                        Segurança
+
+                    </div>
+
+                    <div class="device">
+
+                        <i class="ph-plug"></i>
+                        Economia de Energia
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre">
+
+        <div class="section-title" data-aos="fade-up">
+
+            <span>PROBLEMA</span>
+
+            <h2>
+                A rotina moderna consome seu tempo.
+            </h2>
+
+            <p>
+
+                O Nexus automatiza tarefas repetitivas
+                e devolve tempo para o que realmente importa.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- TECNOLOGIAS -->
+
+    <section id="tecnologia" class="features">
+
+        <div class="card" data-aos="fade-up">
+
+            <i class="ph-brain"></i>
+
+            <h3>IA Preditiva</h3>
+
+            <p>
+                O Nexus aprende automaticamente sua rotina.
+            </p>
+
+        </div>
+
+        <div class="card"
+            data-aos="fade-up"
+            data-aos-delay="200">
+
+            <i class="ph-lock-key"></i>
+
+            <h3>Privacidade Local</h3>
+
+            <p>
+                Seus dados são processados localmente.
+            </p>
+
+        </div>
+
+        <div class="card"
+            data-aos="fade-up"
+            data-aos-delay="400">
+
+            <i class="ph-plugs-connected"></i>
+
+            <h3>Ecossistema Aberto</h3>
+
+            <p>
+                Compatível com múltiplas marcas.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- DEMO -->
+
+    <section id="demo" class="demo">
+
+        <div class="demo-left"
+            data-aos="fade-right">
+
+            <span>DEMONSTRAÇÃO</span>
+
+            <h2>
+
+                Controle sua casa em tempo real.
+
+            </h2>
+
+            <p>
+
+                Veja como o Nexus automatiza iluminação,
+                conforto e privacidade.
+
+            </p>
+
+            <div class="demo-buttons">
+
+                <button id="lightBtn"
+                    class="control-btn">
+
+                    Desligar Luzes
+
+                </button>
+
+                <button id="curtainBtn"
+                    class="control-btn">
+
+                    Fechar Cortinas
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CASA -->
+
+        <div class="house-container"
+            data-aos="fade-left">
+
+            <div class="scene">
+
+                <div class="sky"></div>
+
+                <div class="ground"></div>
+
+                <div class="house">
+
+                    <div class="roof"></div>
+
+                    <div class="chimney"></div>
+
+                    <div class="window top left-window">
+
+                        <div class="light"></div>
+
+                        <div class="curtain curtain-left"></div>
+                        <div class="curtain curtain-right"></div>
+
+                    </div>
+
+                    <div class="window top right-window">
+
+                        <div class="light"></div>
+
+                        <div class="curtain curtain-left"></div>
+                        <div class="curtain curtain-right"></div>
+
+                    </div>
+
+                    <div class="window bottom left-bottom">
+
+                        <div class="light"></div>
+
+                        <div class="curtain curtain-left"></div>
+                        <div class="curtain curtain-right"></div>
+
+                    </div>
+
+                    <div class="window bottom right-bottom">
+
+                        <div class="light"></div>
+
+                        <div class="curtain curtain-left"></div>
+                        <div class="curtain curtain-right"></div>
+
+                    </div>
+
+                    <div class="door">
+
+                        <div class="door-light"></div>
+
+                    </div>
+
+                    <div class="porch"></div>
+
+                    <div class="plant plant-1"></div>
+                    <div class="plant plant-2"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PLANOS -->
+
+    <section id="planos" class="plans-section">
+
+        <div class="section-title" data-aos="fade-up">
+
+            <span>PLANOS</span>
+
+            <h2>
+                Escolha o Nexus ideal para sua casa
+            </h2>
+
+            <p>
+                Mais conforto, automação e inteligência para o seu dia.
+            </p>
+
+        </div>
+
+        <div class="plans-container">
+
+            <!-- BASIC -->
+
+            <div class="plan-card"
+                data-aos="fade-right">
+
+                <h3>BASIC</h3>
+
+                <div class="price">
+                    R$79<span>/mês</span>
+                </div>
+
+                <ul>
+
+                    <li>✓ Controle via aplicativo</li>
+
+                    <li>✓ Controle inteligente de luzes</li>
+
+                    <li>✓ Controle automatizado de cortinas</li>
+
+                    <li>✓ Controle de ar-condicionado</li>
+
+                </ul>
+
+                <button>
+                    Começar Agora
+                </button>
+
+            </div>
+
+            <!-- PREMIUM -->
+
+            <div class="plan-card premium"
+                data-aos="fade-left">
+
+                <div class="premium-tag">
+                    MAIS COMPLETO
+                </div>
+
+                <h3>PREMIUM</h3>
+
+                <div class="price">
+                    R$199<span>/mês</span>
+                </div>
+
+                <ul>
+
+                    <li>✓ Tudo do plano Basic</li>
+
+                    <li>✓ Inteligência artificial preditiva</li>
+
+                    <li>✓ Economia inteligente de energia</li>
+
+                    <li>✓ Automação avançada por rotina</li>
+
+                    <li>✓ Monitoramento inteligente da casa</li>
+
+                </ul>
+
+                <button>
+                    Experiência Premium
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COMPARATIVO -->
+
+    <section id="comparativo"
+        class="comparison-section">
+
+        <div class="section-title"
+            data-aos="fade-up">
+
+            <span>COMPARATIVO</span>
+
+            <h2>
+                Nexus vs Alexa
+            </h2>
+
+        </div>
+
+        <div class="table-container"
+            data-aos="zoom-in">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Recurso</th>
+                        <th>Alexa</th>
+                        <th>Nexus</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Tipo de ação</td>
+                        <td>Reativa</td>
+                        <td class="highlight-cell">
+                            Preditiva
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Privacidade</td>
+                        <td>Nuvem</td>
+                        <td class="highlight-cell">
+                            Local
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Automação</td>
+                        <td>Manual</td>
+                        <td class="highlight-cell">
+                            Inteligente
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="contato">
+
+        <h2>NEXUS</h2>
+
+        <p>
+
+            Tecnologia inteligente para devolver
+            tempo à sua vida.
+
+        </p>
+
+        <span>
+
+            © 2026 HomeTechConnect - IFSP Suzano
+
+        </span>
+
+    </footer>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JS -->
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
